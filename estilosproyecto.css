@@ -1,0 +1,113 @@
+*{
+padding: 0;
+margin:0;
+}
+body{
+background-color:blanchedalmond;
+
+}
+#logo{
+float: left;
+margin-top: 35px; 
+font-family: Impact;
+font-style: oblique;
+font-size: larger;
+cursor: pointer;
+background-color: #f2f2f2;
+}
+.botonh{
+border: none;
+border-radius: 5px;
+background-color: blanchedalmond;
+height: 100px;
+width: 250px;
+margin-left: 15px;
+cursor: pointer;
+transition: background-color 0.9s ease;
+font-family: Impact;
+font-size: large;
+}
+.botonh:hover{
+background-color:bisque;
+}
+#encabezado{
+background-color: blanchedalmond;
+height: 100px;
+}
+#OFERTA1{
+width: 470px;
+height: 470px;
+font-family:'Trebuchet MS';
+font-size: 20px;
+background-image: url(iphone.jpg) ;
+text-align: center;
+color:burlywood;
+margin-left: 30px;
+margin-top: 10px;
+float: left;
+}
+#precioof1{
+font-family: 'Cambria';
+font-size: 50px;
+}
+#OFERTA1:hover{
+width: 475px;
+height: 475px;
+border-style:groove;
+border-width: 10px;
+transition: 0.5s ease;
+}
+#OFERTA2{
+    width: 470px;
+    height: 470px;
+    font-family:'Trebuchet MS';
+    font-size: 20px;
+    background-image: url(samsung.jpg) ;
+    background-repeat: none;
+    background-size: cover;
+    text-align: center;
+    color:blanchedalmond;
+    margin-left: 30px;
+    margin-top: 10px;
+    float: left;
+ 
+}
+#precioof2{
+    font-family: 'Cambria';
+    font-size: 50px;
+}
+#OFERTA2:hover{
+    width: 475px;
+    height: 475px;
+    border-style:groove;
+    border-width: 10px;
+    transition: 0.5s ease;
+}
+#OFERTA3{
+    width: 470px;
+    height: 470px;
+    font-family:'Trebuchet MS';
+    font-size: 20px;
+    background-image: url(iphone2.jpg) ;
+    background-repeat: none;
+    background-size: cover;
+    text-align: center;
+    color:blanchedalmond;
+    margin-left: 30px;
+    margin-top: 10px;
+    float: left;
+ 
+}
+#precioof3{
+    font-family: 'Cambria';
+    font-size: 50px;
+}
+#OFERTA3:hover{
+    width: 475px;
+    height: 475px;
+    border-style:groove;
+    border-width: 10px;
+    transition: 0.5s ease;
+}
+
+

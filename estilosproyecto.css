@@ -53,8 +53,7 @@ font-size: 50px;
 #OFERTA1:hover{
 width: 475px;
 height: 475px;
-border-style:groove;
-border-width: 10px;
+box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.5);
 transition: 0.5s ease;
 }
 #OFERTA2{
@@ -79,8 +78,7 @@ transition: 0.5s ease;
 #OFERTA2:hover{
     width: 475px;
     height: 475px;
-    border-style:groove;
-    border-width: 10px;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.5);
     transition: 0.5s ease;
 }
 #OFERTA3{
@@ -105,9 +103,44 @@ transition: 0.5s ease;
 #OFERTA3:hover{
     width: 475px;
     height: 475px;
-    border-style:groove;
-    border-width: 10px;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.5);
     transition: 0.5s ease;
 }
-
-
+@media only screen and (max-width:600px){
+*{
+margin: 0;
+padding: 0;
+}
+#encabezado{
+width: 100%;
+height: 5%;
+}
+.botonh{
+width: 20%;
+margin: 0;
+padding: 0;
+margin-left: 1px;
+}
+#OFERTA1{
+margin-left: 25px;
+width: 90%;
+}
+#OFERTA1:hover{
+width: 92%; 
+}
+#OFERTA2{
+margin-left: 25px;
+width: 90%;
+    
+}
+#OFERTA2:hover{
+width: 92%; 
+}
+#OFERTA3{
+margin-left: 25px;
+width: 90%;
+    
+}
+#OFERTA3:hover{
+width: 92%; 
+}

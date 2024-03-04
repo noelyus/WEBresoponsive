@@ -1,3 +1,2 @@
 # WEBresoponsive
-es una web resposive
-link de repositorio de github 
+link de repositorio de github: https://github.com/noelyus/WEBresoponsive
